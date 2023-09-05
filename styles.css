@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,400&family=Playfair+Display&family=Poppins:wght@200;400;700&family=Roboto:wght@100;300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+body{
+    background-color: rgb(0, 0, 35);
+    color: white;
+}
+
+ul{
+    display:inline-flex;  
+    gap:20px;
+    list-style: none;
+    margin: 2em 2em;
+};
+
+ul li{
+    
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.container{
+    margin:2em 2em;
+}
+.container h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.search{
+    display: flex;
+    margin-top: 1em;
+}
+.container input{
+    width: 30%;
+    padding: 8px;
+    font-size: 1.3rem;
+}
+
+.container button{
+    padding: 1px 25px;
+    margin-left: 4px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    background-color: rgb(30, 30, 206);
+    color: azure;
+    border:none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: #1e396b;
+}
+
+#results{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.movie {
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 150px;
+    background-color: #0e2144;
+    border-radius: 5px;
+    color: white;
+}
+
+.movie img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.movie h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.movie p {
+    margin: 5px 0;
+}
